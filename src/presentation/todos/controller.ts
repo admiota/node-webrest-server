@@ -60,5 +60,5 @@ export class TodosController {
         (deletedTodo)
             ? res.json(deletedTodo)
             : res.json({ error: `Todo with id ${id} not found` });
-    }
+    } 
 }

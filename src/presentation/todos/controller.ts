@@ -1,5 +1,6 @@
 import { CreateTodoDto } from './../../domain/dtos/todos/create-todo.dto';
-import { prisma } from '../../../prisma/data/postgres/index';
+//import { prisma } from '../../../prisma/data/postgres/index';
+import { prisma } from './../../../prisma/data/postgres/index';
 
 
 import { Request, Response } from "express"

@@ -5,11 +5,6 @@ import { Request, Response } from "express"
 import { UpdateTodoDto } from '../../domain/dtos';
 import { CreateTodo, DeleteTodo, GetTodo, GetTodos, TodoRepository, UpdateTodo } from '../../domain';
 
-//DEFINIMOS AQUÍ EL PRISMA EXPORTADO
-
-
-
-const todoDatasourceImplementation = new TodoDatasourceImplementation();
 export class TodosController {
     constructor(
         private readonly todoRepository:TodoRepository
